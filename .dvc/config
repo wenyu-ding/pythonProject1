@@ -1,0 +1,7 @@
+[core]
+    remote = ssh
+['remote "local"']
+    url = ../../test_dvc_backup
+['remote "ssh"']
+    url = ssh://ding@172.105.250.118/home/ding/dvc_backup
+    ask_password = true
